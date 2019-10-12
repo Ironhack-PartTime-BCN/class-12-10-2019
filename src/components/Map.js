@@ -7,7 +7,7 @@ class Map extends Component {
   state = {
     lng: this.props.longitude || 0,
     lat: this.props.latitude || 0,
-    zoom: 13
+    zoom: this.props.zoom || 13
   };
 
   componentDidMount() {

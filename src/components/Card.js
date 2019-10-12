@@ -1,5 +1,4 @@
 import React from "react";
-import Map from "./Map";
 
 const Card = ({ title = "Title", children }) => {
   return (
